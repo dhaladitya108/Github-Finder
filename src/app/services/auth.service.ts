@@ -15,7 +15,7 @@ export class AuthService {
     return this.auth.signInWithEmailAndPassword(email, password);
   }
 
-  getUset() {
+  getUser() {
     return this.auth.authState;
   }
 
